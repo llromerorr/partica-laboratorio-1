@@ -1,4 +1,4 @@
-# partica-laboratorio-1
+# practica-laboratorio-1
 
 Primer practica de laboratorio, Arquitectura.
 
