@@ -5,13 +5,13 @@ mensaje2: .asciiz "resultado es: "
 .text
 
 sum:
-	beq $a0, $zero, sum_exit 
-	add $a1, $a1, $a0 
-	addi $a0, $a0, -1 
-	j sum 
+    beq $a0, $zero, sum_exit 
+    add $a1, $a1, $a0 
+    addi $a0, $a0, -1 
+    j sum 
 sum_exit:
-	add $v0, $a1, $zero 
-	jr $ra 
+    add $v0, $a1, $zero 
+    jr $ra 
 
 main:
     la $a0, mensaje
